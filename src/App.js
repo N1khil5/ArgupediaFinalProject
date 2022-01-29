@@ -47,7 +47,7 @@ export default class App extends React.Component {
 		this.refreshVotingChoices()
 	}
 
-	// Refresh the argumentation graph anytime this function is called.
+	// Refresh the argumentation graph anytime this function is called..
 	refreshArgumentGraph() {
 		const argu = JSON.parse(this.localStorage.getItem('arguments'));
 		if (argu == null) {
